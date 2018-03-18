@@ -76,6 +76,7 @@ class CanvasViewController: UIViewController {
             newlyCreatedFace.center.y += trayView.frame.origin.y
 
             newlyCreatedFaceOriginalCenter = newlyCreatedFace.center
+            newlyCreatedFace.isUserInteractionEnabled = true
             
         } else if sender.state == .changed {
             print("Gesture is changing")
