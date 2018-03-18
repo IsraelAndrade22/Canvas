@@ -1,19 +1,19 @@
 
-# Lab 7 - *Name of App Here*
+# Lab 7 - Canvas
 
-**Name of your app** is an app that allows users to use gestures in order to create fun pictures using a variety of images.
+Canvas is an app that allows users to use gestures in order to create fun pictures using a variety of images.
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] Add and Configure View Elements (+1pt)
-- [ ] User can use a pan gesture to move the position of the tray (+1pt)
-- [ ] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
-- [ ] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
-- [ ] User can pan faces on the canvas (+1pt)
+- [x] Add and Configure View Elements (+1pt)
+- [x] User can use a pan gesture to move the position of the tray (+1pt)
+- [x] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
+- [x] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
+- [x] User can pan faces on the canvas (+1pt)
 
 The following **stretch** user stories are implemented:
 
@@ -37,24 +37,25 @@ The following **stretch** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. how to work with the pan gesture recognizer
+2. how to use the pinch gesture
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://imgur.com/9G90bFh"><img src="https://i.imgur.com/9G90bFh.gif" title="source: imgur.com" /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+The main challenge we had while constructing the app was trying to get the pan gesture recognizer to work on the displayed emojis that the user drags onto the canvas.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Israel Andrade, Miguel Fletes]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
